@@ -263,7 +263,7 @@ button {
 }
 .loader-logo {
     position: relative;
-    color: #FFF;
+    color: var(--cyan);
     top: 43%;
 }
 #progress {
