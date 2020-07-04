@@ -52,11 +52,11 @@ Primary Color: #E48632;
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: #E48632;
+    color: var(--purple);
 }
 /* -Link Styling- */
 a {
-    color: #F39C12;
+    color: var(--purple);
     font-family: Raleway, sans-serif;
 	text-decoration: none;
 }
@@ -65,15 +65,15 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #E48632;
+    color: var(--blue);
 	text-decoration: underline;
 }
 a:active {
-    color: #E48632;
+    color: var(--purple);
     text-decoration: underline;
 }
 a:focus {
-    color: #E48632;
+    color: var(--blue);
     text-decoration: none;
 }
 /* -Resets- */
