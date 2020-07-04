@@ -52,7 +52,10 @@ Primary Color: #E48632;
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: var(--purple);
+    color: var(--cyan);
+}
+.colored2 {
+    color: var(--orange);
 }
 /* -Link Styling- */
 a {
