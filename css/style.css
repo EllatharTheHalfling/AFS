@@ -184,7 +184,7 @@ hr {
 }
 .short-hr-left::after {
     border-top: 2px solid;
-    border-color: var(--purple);
+    border-color: var(--gray);
     content: "";
     display: block;
     height: 1px;
@@ -193,7 +193,7 @@ hr {
 }
 .short-hr-center::after {
     border-top: 2px solid;
-    border-color: var(--purple);
+    border-color: var(--gray);
     content: "";
     display: block;
     height: 1px;
