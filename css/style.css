@@ -51,8 +51,6 @@ Primary Color: #E48632;
 @font-face {
 	font-family: 'AFS';
 	src: url('../fonts/afs_font-webfont.eot');
-	src: url('../fonts/afs_font-webfont.woff') format('woff'),
-	url("afs_font-webfont.svg#filename') format('svg');
 }
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
