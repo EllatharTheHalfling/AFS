@@ -50,12 +50,12 @@ Primary Color: #E48632;
 }
 @font-face {
     font-family: 'afs_fontregular';
-    src: url('afs_font-webfont.eot');
-    src: url('afs_font-webfont.eot?#iefix') format('embedded-opentype'),
-         url('afs_font-webfont.woff2') format('woff2'),
-         url('afs_font-webfont.woff') format('woff'),
-         url('afs_font-webfont.ttf') format('truetype'),
-         url('afs_font-webfont.svg#afs_fontregular') format('svg');
+    src: url('../fonts/afs_font-webfont.eot');
+    src: url('../fonts/afs_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/afs_font-webfont.woff2') format('woff2'),
+         url('../fonts/afs_font-webfont.woff') format('woff'),
+         url('../fonts/afs_font-webfont.ttf') format('truetype'),
+         url('../fonts/afs_font-webfont.svg#afs_fontregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 2.25rem; /* 36px */
-    font-family: AFS, AFS;
+    font-family: afs_fontregular, arial;
     letter-spacing: 5px;
 } 
 h2 {
@@ -304,7 +304,7 @@ button {
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
-    font-family: AFS, sans-serif;
+    font-family: afs_fontregular, arial;
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
 }
@@ -900,7 +900,7 @@ button {
      margin-top: 18%;
 }
 .text-404 h1 {
-    font-family: AFS, sans-serif;
+    font-family: afs_fontregular, arial;
     font-size: 4rem;
 }
 .text-404 a {
